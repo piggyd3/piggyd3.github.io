@@ -6,25 +6,7 @@
     <description>Recent content in Categories on 欢迎来到我的主页</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://piggyd3.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>指南</title>
-      <link>https://piggyd3.github.io/categories/%E6%8C%87%E5%8D%97/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://piggyd3.github.io/categories/%E6%8C%87%E5%8D%97/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>新手</title>
-      <link>https://piggyd3.github.io/categories/%E6%96%B0%E6%89%8B/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://piggyd3.github.io/categories/%E6%96%B0%E6%89%8B/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://piggyd3.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Development</title>
       <link>https://piggyd3.github.io/categories/development/</link>
