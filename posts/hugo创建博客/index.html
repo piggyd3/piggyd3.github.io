@@ -148,6 +148,15 @@ theme = &#39;blist&#39; 重新执行hugo serve
 在build和deploy选项里配置action,选择Deploy static content to Pages
 <img src="/img/github-action.png" alt="githubaction">
 每次提交更新后,github action会自动执行发布任务,piggyd3.github.io可以预览最新的内容</p>
+<p>5.一键打包发布
+创建一个<code>打包发布.bat</code>文件,内容如下:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cmd" data-lang="cmd"><span style="display:flex;"><span>hugo
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">cd</span> public
+</span></span><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m &#39;更新&#39;
+</span></span><span style="display:flex;"><span>git push
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">pause</span>
+</span></span></code></pre></div><p>每次改动后执行打包执行.bat就可以自动打包发布到github pages了</p>
 
 </article>
 <div class="sidebar d-print-none d-none d-xl-block">
@@ -166,6 +175,8 @@ theme = &#39;blist&#39; 重新执行hugo serve
         <a href="https://piggyd3.github.io/posts/hugo%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/" class="nav-link"></a>
         
         <a href="https://piggyd3.github.io/posts/%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="nav-link"></a>
+        
+        <a href="https://piggyd3.github.io/posts/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/" class="nav-link"></a>
         
     </nav>
     
