@@ -3,17 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://piggyd3.github.io/posts/hugo%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://piggyd3.github.io/posts/%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://piggyd3.github.io/posts/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://piggyd3.github.io/posts/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</loc>
+    <loc>https://piggyd3.github.io/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://piggyd3.github.io/categories/</loc>
   </url><url>
-    <loc>https://piggyd3.github.io/posts/</loc>
-  </url><url>
     <loc>https://piggyd3.github.io/tags/</loc>
-  </url><url>
-    <loc>https://piggyd3.github.io/</loc>
   </url>
 </urlset>
