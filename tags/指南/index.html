@@ -4,18 +4,18 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <meta property="og:title" content="Categories" />
+        <meta property="og:title" content="指南" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://piggyd3.github.io/categories/" />
+<meta property="og:url" content="https://piggyd3.github.io/tags/%E6%8C%87%E5%8D%97/" />
 
 
         <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Categories"/>
+<meta name="twitter:title" content="指南"/>
 <meta name="twitter:description" content=""/>
 
         
-        <title>欢迎来到我的主页</title>
+        <title>指南 | 欢迎来到我的主页</title>
 
         <link rel="icon" type="image/png" href='https://piggyd3.github.io/images/favicon-16x16.png' sizes="16x16">
         <link rel="icon" type="image/png" href='https://piggyd3.github.io/images/favicon-32x32.png' sizes="32x32">  
@@ -76,7 +76,9 @@
 
     <header class="feature-image">
         <div class="feature-image-text">
-            <h1 class="text-center">Categories</h1>
+            <h1 class="text-center">指南</h1>
+
+            
 
             
               
@@ -88,9 +90,30 @@
                   
                   
                 
+                  
+                  
+                
+                  
+                  
+                
+                  
+                  
+                
+                  
+                  
+                
+                  
+                  
+                
+                  
+                  
+                
+                  
+                  
+                    A 1-post collection
+                  
+                
               
-            
-
             
         </div>
     </header>
@@ -105,36 +128,25 @@
       
       
       <article class="post">
-        <a class="title" href="https://piggyd3.github.io/categories/development/"><h2>Development</h2></a>
+        <a class="title" href="https://piggyd3.github.io/post/hugo%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/"><h2>Hugo创建博客</h2></a>
         <div class="mb-3">
     <small>
-        <strong>By </strong>
-        | <i class="far fa-calendar-alt"></i>&nbsp;Apr 2, 2014&nbsp;
-        | <i class="fa fa-tags" title="Tags" aria-hidden="true"></i> 
+        <strong>By 我自己</strong>
+        | <i class="far fa-calendar-alt"></i>&nbsp;Sep 28, 2014&nbsp;
+        | <i class="fa fa-tags" title="Tags" aria-hidden="true"></i> <a href='/tags/%E6%8C%87%E5%8D%97/'>%E6%8C%87%E5%8D%97</a>
     </small>
 </div>
         <div>
-            
+            下载安装环境 1.先下载Nodejs,Hugo(要下载hugo_extend版本)，git,go，编辑器VSCode
+创建运行 hugo server -D 切换主题 首先下载主题blist，放到thems目录下，themes/blist目录结构如下:
+├─archetypes ├─assets │ ├─css │ └─js ├─exampleSite │ ├─content │ │ ├─de │ │ │ ├─blog │ │ │ └─page │ │ └─en │ │ ├─blog │ │ └─page │ ├─layouts │ └─static ├─i18n ├─images ├─layouts │ ├─partials │ └─_default │ └─_markup └─static └─fonts 然后，在文件config.toml中添加一行（如果已经存在则修改theme字段为&rsquo;blist&rsquo;）
+theme = &#39;blist&#39; 重新执行hugo serve
+图片示例 视频示例 添加自定义CSS样式 先在static目录下创建一个css目录，里面添加一个custom.css文件,然后在config.yml文件中按需添加如下字段:
+[Params] custom_css = [&#34;css/custom.css&#34;] 然后在主题blist里修改layouts/_default/baseof.html,添加如下代码:
+{{ range .Site.Params.custom_css -}} &lt;link rel=&#34;stylesheet&#34; href=&#34;{{ .
         </div>
         <div>
-            <a href="https://piggyd3.github.io/categories/development/" class="btn btn-outline-secondary" role="button">Continue Reading...</a>
-        </div>
-      </article>
-    
-      <article class="post">
-        <a class="title" href="https://piggyd3.github.io/categories/golang/"><h2>golang</h2></a>
-        <div class="mb-3">
-    <small>
-        <strong>By </strong>
-        | <i class="far fa-calendar-alt"></i>&nbsp;Apr 2, 2014&nbsp;
-        | <i class="fa fa-tags" title="Tags" aria-hidden="true"></i> 
-    </small>
-</div>
-        <div>
-            
-        </div>
-        <div>
-            <a href="https://piggyd3.github.io/categories/golang/" class="btn btn-outline-secondary" role="button">Continue Reading...</a>
+            <a href="https://piggyd3.github.io/post/hugo%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/" class="btn btn-outline-secondary" role="button">Continue Reading...</a>
         </div>
       </article>
     
