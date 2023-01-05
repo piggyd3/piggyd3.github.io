@@ -4,8 +4,7 @@
     <title>欢迎来到xyt的主页</title>
     <link>https://piggyd3.github.io/</link>
     <description>Recent content on 欢迎来到xyt的主页</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://piggyd3.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://piggyd3.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>公益大讲堂——档案修复与科学保护</title>
       <link>https://piggyd3.github.io/post/%E6%A1%A3%E6%A1%88%E4%BF%AE%E5%A4%8D%E8%A7%86%E9%A2%91/</link>
@@ -16,27 +15,28 @@
     </item>
     
     <item>
-      <title>利用hugo创建网站的基本流程</title>
-      <link>https://piggyd3.github.io/post/hugo%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://piggyd3.github.io/post/hugo%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
-      <description>下载安装环境 1.先下载Nodejs,Hugo(要下载hugo_extend版本)，git,go，编辑器VSCode
-创建运行 hugo server -D 切换主题 首先下载主题blist，放到thems目录下，themes/blist目录结构如下:
-├─archetypes ├─assets │ ├─css │ └─js ├─exampleSite │ ├─content │ │ ├─de │ │ │ ├─blog │ │ │ └─page │ │ └─en │ │ ├─blog │ │ └─page │ ├─layouts │ └─static ├─i18n ├─images ├─layouts │ ├─partials │ └─_default │ └─_markup └─static └─fonts 然后，在文件config.toml中添加一行（如果已经存在则修改theme字段为&amp;rsquo;blist&amp;rsquo;）
-theme = &amp;#39;blist&amp;#39; 重新执行hugo serve
-图片示例 视频示例 添加自定义CSS样式 先在static目录下创建一个css目录，里面添加一个custom.css文件,然后在config.yml文件中按需添加如下字段:
-[Params] custom_css = [&amp;#34;css/custom.css&amp;#34;] 然后在主题blist里修改layouts/_default/baseof.html,添加如下代码:
-{{ range .Site.Params.custom_css -}} &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;{{ .</description>
-    </item>
-    
-    <item>
       <title>中国档案行业宣传片-逐梦兰台</title>
       <link>https://piggyd3.github.io/post/%E4%B8%AD%E5%9B%BD%E6%A1%A3%E6%A1%88%E8%A1%8C%E4%B8%9A%E5%AE%A3%E4%BC%A0%E7%89%87/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://piggyd3.github.io/post/%E4%B8%AD%E5%9B%BD%E6%A1%A3%E6%A1%88%E8%A1%8C%E4%B8%9A%E5%AE%A3%E4%BC%A0%E7%89%87/</guid>
       <description>2013年，中华人民共和国国家档案局决定自该年开始，把每年的6月9日即“国际档案日”作为档案部门的宣传活动日。 国际档案日作为世界档案界一个盛大节日，为世界的档案工作者推动本国档案事业的发展提供了一个契机，有助于提升档案在大众、政治家、决策者以及赞助机构中的地位。鼓励新的用户和扩大用户基础，改变档案部门和档案专业的形象，让档案界发挥出它最充分的意义，从而建立起更大的信心和与社会的互动。 以下是2022年国际档案日国家档案局发布的中国档案行业宣传片： </description>
+    </item>
+    
+    <item>
+      <title>国际档案日的由来</title>
+      <link>https://piggyd3.github.io/post/%E5%9B%BD%E9%99%85%E6%A1%A3%E6%A1%88%E6%97%A5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://piggyd3.github.io/post/%E5%9B%BD%E9%99%85%E6%A1%A3%E6%A1%88%E6%97%A5/</guid>
+      <description>国际档案日的来历：
+1948年6月9—11日，位于巴黎的联合国教科文组织召开了一场专家会议，来自世界上许多国家的档案工作者参加了会议交流，经大家讨论决定成立国际档案理事会。会上通过了第一份章程，章程中指出，世界各国的档案工作者应共同努力“为了全人类”保护好档案，开展鉴定并提供利用；档案和文件作为全世界共享的遗产和全人类一样具有同一性。
+2007年11月，为了庆祝2008年6月9日国际档案理事会成立60周年纪念日，国际档案理事会全体成员在于加拿大魁北克举行的年度全体会议上投票决定，将每年的6月9日定为国际档案日。
+国际档案日的意义：
+1.为世界的档案工作者推动本国档案事业的发展提供了一个契机
+2.有助于提升档案在大众、政治家、决策者以及赞助机构中的地位
+3.鼓励新的用户和扩大用户基础，改变档案部门和档案专业的形象
+4.让档案界发挥出它最充分的意义，从而建立起更大的信心和与社会的互动</description>
     </item>
     
     <item>
@@ -85,22 +85,6 @@ theme = &amp;#39;blist&amp;#39; 重新执行hugo serve
       <description>Hugo is the world’s fastest framework for building websites. It is written in Go.
 It makes use of a variety of open source projects including:
 https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper Learn more and contribute on GitHub.</description>
-    </item>
-    
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://piggyd3.github.io/post/goisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://piggyd3.github.io/post/goisforlovers/</guid>
-      <description>&lt;p&gt;Hugo uses the excellent &lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt; &lt;a href=&#34;https://golang.org/pkg/html/template/&#34;&gt;html/template&lt;/a&gt; library for
-its template engine. It is an extremely lightweight engine that provides a very
-small amount of logic. In our experience that it is just the right amount of
-logic to be able to create a good static website. If you have used other
-template systems from different languages or frameworks you will find a lot of
-similarities in Go templates.&lt;/p&gt;
-&lt;p&gt;This document is a brief primer on using Go templates. The &lt;a href=&#34;https://golang.org/pkg/html/template/&#34;&gt;Go docs&lt;/a&gt;
-provide more details.&lt;/p&gt;</description>
     </item>
     
   </channel>
