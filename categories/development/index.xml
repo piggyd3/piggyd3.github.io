@@ -22,17 +22,5 @@ similarities in Go templates.&lt;/p&gt;
 provide more details.&lt;/p&gt;</description>
     </item>
     
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://piggyd3.github.io/post/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://piggyd3.github.io/post/hugoisforlovers/</guid>
-      <description>&lt;p&gt;First, go to &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;Hugo releases&lt;/a&gt; and download the
-appropriate version for your OS and architecture.&lt;/p&gt;
-&lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;
-&lt;p&gt;More complete instructions are available at &lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34;&gt;Install Hugo&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    
   </channel>
 </rss>
